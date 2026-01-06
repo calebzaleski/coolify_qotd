@@ -6,7 +6,7 @@ WORKDIR /app
 COPY package.json ./
 RUN npm install
 
-COPY index.js reasons.json ./
+COPY index.js quotes.json ./
 
 EXPOSE 3001
 
