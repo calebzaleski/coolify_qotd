@@ -5,12 +5,14 @@ const fs = require('fs');
 const app = express();
 app.use(cors({
     origin: [
+        'http://main.calebzaleski.com',
         'https://main.calebzaleski.com',
         'http://calebs-MacBook-Air.local:3000',
         'http://calebs-MacBook-Air.local:3001',
         'http://calebs-MacBook-Air.local:5173'
     ]
-}));app.set('trust proxy', true);
+}));
+app.set('trust proxy', true);
 const PORT = process.env.PORT || 3001;
 
 let dailyQuote = null;//sets the quote
