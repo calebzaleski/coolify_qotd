@@ -1,0 +1,13 @@
+{
+  "name": "quote-of-the-day-api",
+  "version": "1.0.0",
+  "description": "Random quote of the day API",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
