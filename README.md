@@ -1,0 +1,1 @@
+this is a project I have that will give you a new quote each day. I use it on my main website under quote of the day. You can host it yourself by cloning it on github and then deploying it with the Dockerfile however you like to deploy with dockers. MAKE SURE TO CHANGE CORS to fit your needs
